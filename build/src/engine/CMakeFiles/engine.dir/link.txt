@@ -1,0 +1,2 @@
+/usr/bin/ar qc libengine.a CMakeFiles/engine.dir/RenderWindow.cpp.o CMakeFiles/engine.dir/Events.cpp.o CMakeFiles/engine.dir/gamelaunch.cpp.o
+/usr/bin/ranlib libengine.a

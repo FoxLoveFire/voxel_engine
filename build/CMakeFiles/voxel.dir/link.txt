@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/voxel.dir/src/main.cpp.o -o voxel  src/engine/libengine.a src/graphics/libgraphics.a /usr/lib/x86_64-linux-gnu/libGL.so /usr/lib/x86_64-linux-gnu/libGLU.so /usr/lib/x86_64-linux-gnu/libGLEW.so /usr/lib/x86_64-linux-gnu/libglfw.so.3.3 /usr/lib/x86_64-linux-gnu/libpng.so /usr/lib/x86_64-linux-gnu/libz.so 

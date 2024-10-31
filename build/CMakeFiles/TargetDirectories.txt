@@ -1,0 +1,9 @@
+/home/maintainer/Рабочий стол/voxel_engine/build/CMakeFiles/voxel.dir
+/home/maintainer/Рабочий стол/voxel_engine/build/CMakeFiles/edit_cache.dir
+/home/maintainer/Рабочий стол/voxel_engine/build/CMakeFiles/rebuild_cache.dir
+/home/maintainer/Рабочий стол/voxel_engine/build/src/engine/CMakeFiles/engine.dir
+/home/maintainer/Рабочий стол/voxel_engine/build/src/engine/CMakeFiles/edit_cache.dir
+/home/maintainer/Рабочий стол/voxel_engine/build/src/engine/CMakeFiles/rebuild_cache.dir
+/home/maintainer/Рабочий стол/voxel_engine/build/src/graphics/CMakeFiles/graphics.dir
+/home/maintainer/Рабочий стол/voxel_engine/build/src/graphics/CMakeFiles/edit_cache.dir
+/home/maintainer/Рабочий стол/voxel_engine/build/src/graphics/CMakeFiles/rebuild_cache.dir
