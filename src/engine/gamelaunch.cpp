@@ -10,6 +10,7 @@
 #include "Events.h"
 #include "../graphics/Texture.h"
 #include "../graphics/Shader.h"
+#include "../graphics/ShaderManager.h"
 
 gamelaunch::gamelaunch()
 {
@@ -34,24 +35,29 @@ float vertices[] = {
 
 int gamelaunch::launch() 
 {
-    render_w->initialize("Voxel Engine", width, height);
+    render_w->initialize("Voxel Engine", 1200, 720);
 
     event->initialize(render_w->get_window());
 
-    glClearColor(0.6f, 0.62f, 0.65f, 1);
+	// Shader* shader = load_shader("res/main.glslv", "res/main.glslf");
+	// if (shader == nullptr){
+	// 	std::cerr << "failed to load shader" << std::endl;
+	// 	render_w->terminate();
+	// 	return 1;
+	// }
 
-	Shader* shader = load_shader("res/main.glslv", "res/main.glslf");
-	if (shader == nullptr){
-		std::cerr << "failed to load shader" << std::endl;
-		render_w->terminate();
-		return 1;
-	}
+	ShaderManager shadermanager(render_w); 
+	shadermanager.load();
+
 
     Texture* texture = load_texture("image.png");
     if (texture == nullptr) {
         render_w->terminate();
         return -1;
     }
+
+
+    glClearColor(0.6f, 0.62f, 0.65f, 1);
 
 	GLuint VAO, VBO;
 	glGenVertexArrays(1, &VAO);
@@ -80,7 +86,8 @@ int gamelaunch::launch()
         glClear(GL_COLOR_BUFFER_BIT);
 
 
-        shader -> use();
+        //shader -> use();
+		shadermanager.run();
         texture->bind();
 		glBindVertexArray(VAO);
 		glDrawArrays(GL_TRIANGLES, 0, 6);
@@ -90,7 +97,7 @@ int gamelaunch::launch()
         event->pullEvents();
     }
 
-	delete shader;
+	//delete shader;
 	delete texture;
 	glDeleteBuffers(1, &VBO);
 	glDeleteVertexArrays(1, &VAO);

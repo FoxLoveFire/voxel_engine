@@ -11,7 +11,7 @@
 						1,
 						2
 					],
-					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -25,7 +25,7 @@
 				},
 				{
 					"build" : "src/engine",
-					"jsonFile" : "directory-src.engine-f18d3e3eac6b44c09f1e.json",
+					"jsonFile" : "directory-src.engine-Debug-f18d3e3eac6b44c09f1e.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -40,7 +40,7 @@
 				},
 				{
 					"build" : "src/graphics",
-					"jsonFile" : "directory-src.graphics-b504ff7107bad588abeb.json",
+					"jsonFile" : "directory-src.graphics-Debug-b504ff7107bad588abeb.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -54,7 +54,7 @@
 					]
 				}
 			],
-			"name" : "",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -78,21 +78,21 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "engine::@d30147da1c6e0503853c",
-					"jsonFile" : "target-engine-800d9b103084f6a4c996.json",
+					"jsonFile" : "target-engine-Debug-b7ae0d524917a4f78422.json",
 					"name" : "engine",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "graphics::@51dde881cca20334ba54",
-					"jsonFile" : "target-graphics-db8d9f7dc0ed6b1e6856.json",
+					"jsonFile" : "target-graphics-Debug-b8500ffb1e2130faac2f.json",
 					"name" : "graphics",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "voxel::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-voxel-9a520b0d417acb8f02c9.json",
+					"jsonFile" : "target-voxel-Debug-311e3d6072cd388d8850.json",
 					"name" : "voxel",
 					"projectIndex" : 0
 				}

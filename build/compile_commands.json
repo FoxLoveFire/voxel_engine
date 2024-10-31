@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/home/maintainer/Рабочий стол/voxel_engine/build",
+  "command": "/usr/bin/g++ -g -std=gnu++17 -o CMakeFiles/voxel.dir/src/main.cpp.o -c \"/home/maintainer/Рабочий стол/voxel_engine/src/main.cpp\"",
+  "file": "/home/maintainer/Рабочий стол/voxel_engine/src/main.cpp",
+  "output": "CMakeFiles/voxel.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/maintainer/Рабочий стол/voxel_engine/build",
+  "command": "/usr/bin/g++ -g -std=gnu++17 -o src/engine/CMakeFiles/engine.dir/RenderWindow.cpp.o -c \"/home/maintainer/Рабочий стол/voxel_engine/src/engine/RenderWindow.cpp\"",
+  "file": "/home/maintainer/Рабочий стол/voxel_engine/src/engine/RenderWindow.cpp",
+  "output": "src/engine/CMakeFiles/engine.dir/RenderWindow.cpp.o"
+},
+{
+  "directory": "/home/maintainer/Рабочий стол/voxel_engine/build",
+  "command": "/usr/bin/g++ -g -std=gnu++17 -o src/engine/CMakeFiles/engine.dir/Events.cpp.o -c \"/home/maintainer/Рабочий стол/voxel_engine/src/engine/Events.cpp\"",
+  "file": "/home/maintainer/Рабочий стол/voxel_engine/src/engine/Events.cpp",
+  "output": "src/engine/CMakeFiles/engine.dir/Events.cpp.o"
+},
+{
+  "directory": "/home/maintainer/Рабочий стол/voxel_engine/build",
+  "command": "/usr/bin/g++ -g -std=gnu++17 -o src/engine/CMakeFiles/engine.dir/gamelaunch.cpp.o -c \"/home/maintainer/Рабочий стол/voxel_engine/src/engine/gamelaunch.cpp\"",
+  "file": "/home/maintainer/Рабочий стол/voxel_engine/src/engine/gamelaunch.cpp",
+  "output": "src/engine/CMakeFiles/engine.dir/gamelaunch.cpp.o"
+},
+{
+  "directory": "/home/maintainer/Рабочий стол/voxel_engine/build",
+  "command": "/usr/bin/g++ -g -std=gnu++17 -o src/graphics/CMakeFiles/graphics.dir/Shader.cpp.o -c \"/home/maintainer/Рабочий стол/voxel_engine/src/graphics/Shader.cpp\"",
+  "file": "/home/maintainer/Рабочий стол/voxel_engine/src/graphics/Shader.cpp",
+  "output": "src/graphics/CMakeFiles/graphics.dir/Shader.cpp.o"
+},
+{
+  "directory": "/home/maintainer/Рабочий стол/voxel_engine/build",
+  "command": "/usr/bin/g++ -g -std=gnu++17 -o src/graphics/CMakeFiles/graphics.dir/Texture.cpp.o -c \"/home/maintainer/Рабочий стол/voxel_engine/src/graphics/Texture.cpp\"",
+  "file": "/home/maintainer/Рабочий стол/voxel_engine/src/graphics/Texture.cpp",
+  "output": "src/graphics/CMakeFiles/graphics.dir/Texture.cpp.o"
+},
+{
+  "directory": "/home/maintainer/Рабочий стол/voxel_engine/build",
+  "command": "/usr/bin/g++ -g -std=gnu++17 -o src/graphics/CMakeFiles/graphics.dir/ShaderManager.cpp.o -c \"/home/maintainer/Рабочий стол/voxel_engine/src/graphics/ShaderManager.cpp\"",
+  "file": "/home/maintainer/Рабочий стол/voxel_engine/src/graphics/ShaderManager.cpp",
+  "output": "src/graphics/CMakeFiles/graphics.dir/ShaderManager.cpp.o"
+}
+]

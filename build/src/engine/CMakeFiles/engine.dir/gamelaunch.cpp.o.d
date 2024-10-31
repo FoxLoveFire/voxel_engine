@@ -310,4 +310,5 @@ src/engine/CMakeFiles/engine.dir/gamelaunch.cpp.o: \
  /usr/include/glm/detail/type_half.hpp \
  /usr/include/glm/detail/type_half.inl /usr/include/glm/integer.hpp \
  /usr/include/glm/detail/func_integer.inl \
- /home/maintainer/Рабочий\ стол/voxel_engine/src/engine/../graphics/Texture.h
+ /home/maintainer/Рабочий\ стол/voxel_engine/src/engine/../graphics/Texture.h \
+ /home/maintainer/Рабочий\ стол/voxel_engine/src/engine/../graphics/ShaderManager.h

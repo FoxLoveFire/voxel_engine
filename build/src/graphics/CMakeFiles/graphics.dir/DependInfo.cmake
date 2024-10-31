@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/maintainer/Рабочий стол/voxel_engine/src/graphics/Shader.cpp" "src/graphics/CMakeFiles/graphics.dir/Shader.cpp.o" "gcc" "src/graphics/CMakeFiles/graphics.dir/Shader.cpp.o.d"
+  "/home/maintainer/Рабочий стол/voxel_engine/src/graphics/ShaderManager.cpp" "src/graphics/CMakeFiles/graphics.dir/ShaderManager.cpp.o" "gcc" "src/graphics/CMakeFiles/graphics.dir/ShaderManager.cpp.o.d"
   "/home/maintainer/Рабочий стол/voxel_engine/src/graphics/Texture.cpp" "src/graphics/CMakeFiles/graphics.dir/Texture.cpp.o" "gcc" "src/graphics/CMakeFiles/graphics.dir/Texture.cpp.o.d"
   )
 

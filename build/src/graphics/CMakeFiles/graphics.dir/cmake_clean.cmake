@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/graphics.dir/Shader.cpp.o"
   "CMakeFiles/graphics.dir/Shader.cpp.o.d"
+  "CMakeFiles/graphics.dir/ShaderManager.cpp.o"
+  "CMakeFiles/graphics.dir/ShaderManager.cpp.o.d"
   "CMakeFiles/graphics.dir/Texture.cpp.o"
   "CMakeFiles/graphics.dir/Texture.cpp.o.d"
   "libgraphics.a"

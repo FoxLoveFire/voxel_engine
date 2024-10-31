@@ -97,19 +97,35 @@ src/graphics/CMakeFiles/graphics.dir/Texture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/graphics.dir/Texture.cpp.s"
 	cd "/home/maintainer/Рабочий стол/voxel_engine/build/src/graphics" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/maintainer/Рабочий стол/voxel_engine/src/graphics/Texture.cpp" -o CMakeFiles/graphics.dir/Texture.cpp.s
 
+src/graphics/CMakeFiles/graphics.dir/ShaderManager.cpp.o: src/graphics/CMakeFiles/graphics.dir/flags.make
+src/graphics/CMakeFiles/graphics.dir/ShaderManager.cpp.o: /home/maintainer/Рабочий\ стол/voxel_engine/src/graphics/ShaderManager.cpp
+src/graphics/CMakeFiles/graphics.dir/ShaderManager.cpp.o: src/graphics/CMakeFiles/graphics.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/maintainer/Рабочий стол/voxel_engine/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/graphics/CMakeFiles/graphics.dir/ShaderManager.cpp.o"
+	cd "/home/maintainer/Рабочий стол/voxel_engine/build/src/graphics" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/graphics/CMakeFiles/graphics.dir/ShaderManager.cpp.o -MF CMakeFiles/graphics.dir/ShaderManager.cpp.o.d -o CMakeFiles/graphics.dir/ShaderManager.cpp.o -c "/home/maintainer/Рабочий стол/voxel_engine/src/graphics/ShaderManager.cpp"
+
+src/graphics/CMakeFiles/graphics.dir/ShaderManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/graphics.dir/ShaderManager.cpp.i"
+	cd "/home/maintainer/Рабочий стол/voxel_engine/build/src/graphics" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/maintainer/Рабочий стол/voxel_engine/src/graphics/ShaderManager.cpp" > CMakeFiles/graphics.dir/ShaderManager.cpp.i
+
+src/graphics/CMakeFiles/graphics.dir/ShaderManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/graphics.dir/ShaderManager.cpp.s"
+	cd "/home/maintainer/Рабочий стол/voxel_engine/build/src/graphics" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/maintainer/Рабочий стол/voxel_engine/src/graphics/ShaderManager.cpp" -o CMakeFiles/graphics.dir/ShaderManager.cpp.s
+
 # Object files for target graphics
 graphics_OBJECTS = \
 "CMakeFiles/graphics.dir/Shader.cpp.o" \
-"CMakeFiles/graphics.dir/Texture.cpp.o"
+"CMakeFiles/graphics.dir/Texture.cpp.o" \
+"CMakeFiles/graphics.dir/ShaderManager.cpp.o"
 
 # External object files for target graphics
 graphics_EXTERNAL_OBJECTS =
 
 src/graphics/libgraphics.a: src/graphics/CMakeFiles/graphics.dir/Shader.cpp.o
 src/graphics/libgraphics.a: src/graphics/CMakeFiles/graphics.dir/Texture.cpp.o
+src/graphics/libgraphics.a: src/graphics/CMakeFiles/graphics.dir/ShaderManager.cpp.o
 src/graphics/libgraphics.a: src/graphics/CMakeFiles/graphics.dir/build.make
 src/graphics/libgraphics.a: src/graphics/CMakeFiles/graphics.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/maintainer/Рабочий стол/voxel_engine/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libgraphics.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/maintainer/Рабочий стол/voxel_engine/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libgraphics.a"
 	cd "/home/maintainer/Рабочий стол/voxel_engine/build/src/graphics" && $(CMAKE_COMMAND) -P CMakeFiles/graphics.dir/cmake_clean_target.cmake
 	cd "/home/maintainer/Рабочий стол/voxel_engine/build/src/graphics" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/graphics.dir/link.txt --verbose=$(VERBOSE)
 

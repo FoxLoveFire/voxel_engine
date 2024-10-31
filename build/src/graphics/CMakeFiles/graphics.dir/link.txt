@@ -1,2 +1,2 @@
-/usr/bin/ar qc libgraphics.a CMakeFiles/graphics.dir/Shader.cpp.o CMakeFiles/graphics.dir/Texture.cpp.o
+/usr/bin/ar qc libgraphics.a CMakeFiles/graphics.dir/Shader.cpp.o CMakeFiles/graphics.dir/Texture.cpp.o CMakeFiles/graphics.dir/ShaderManager.cpp.o
 /usr/bin/ranlib libgraphics.a

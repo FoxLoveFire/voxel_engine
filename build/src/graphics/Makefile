@@ -154,6 +154,30 @@ Shader.cpp.s:
 	cd "/home/maintainer/Рабочий стол/voxel_engine/build" && $(MAKE) $(MAKESILENT) -f src/graphics/CMakeFiles/graphics.dir/build.make src/graphics/CMakeFiles/graphics.dir/Shader.cpp.s
 .PHONY : Shader.cpp.s
 
+ShaderManager.o: ShaderManager.cpp.o
+.PHONY : ShaderManager.o
+
+# target to build an object file
+ShaderManager.cpp.o:
+	cd "/home/maintainer/Рабочий стол/voxel_engine/build" && $(MAKE) $(MAKESILENT) -f src/graphics/CMakeFiles/graphics.dir/build.make src/graphics/CMakeFiles/graphics.dir/ShaderManager.cpp.o
+.PHONY : ShaderManager.cpp.o
+
+ShaderManager.i: ShaderManager.cpp.i
+.PHONY : ShaderManager.i
+
+# target to preprocess a source file
+ShaderManager.cpp.i:
+	cd "/home/maintainer/Рабочий стол/voxel_engine/build" && $(MAKE) $(MAKESILENT) -f src/graphics/CMakeFiles/graphics.dir/build.make src/graphics/CMakeFiles/graphics.dir/ShaderManager.cpp.i
+.PHONY : ShaderManager.cpp.i
+
+ShaderManager.s: ShaderManager.cpp.s
+.PHONY : ShaderManager.s
+
+# target to generate assembly for a file
+ShaderManager.cpp.s:
+	cd "/home/maintainer/Рабочий стол/voxel_engine/build" && $(MAKE) $(MAKESILENT) -f src/graphics/CMakeFiles/graphics.dir/build.make src/graphics/CMakeFiles/graphics.dir/ShaderManager.cpp.s
+.PHONY : ShaderManager.cpp.s
+
 Texture.o: Texture.cpp.o
 .PHONY : Texture.o
 
@@ -190,6 +214,9 @@ help:
 	@echo "... Shader.o"
 	@echo "... Shader.i"
 	@echo "... Shader.s"
+	@echo "... ShaderManager.o"
+	@echo "... ShaderManager.i"
+	@echo "... ShaderManager.s"
 	@echo "... Texture.o"
 	@echo "... Texture.i"
 	@echo "... Texture.s"

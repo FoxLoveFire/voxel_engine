@@ -6,12 +6,19 @@ RenderWindow::RenderWindow()
 
 }
 
+void ErrorCallback(int, const char* err_str)
+{
+    std::cout << "GLFW Error: " << err_str << std::endl;
+}
+
 void RenderWindow::initialize(const char* title, int width, int height) 
 {
+    
     if (!glfwInit()) {
         std::cerr << "Failed to initialize GLFW" << std::endl;
         exit(1);
     }
+    glfwSetErrorCallback(ErrorCallback);
 
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
